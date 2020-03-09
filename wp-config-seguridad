@@ -1,0 +1,10 @@
+/** Desactivar actualizaciones automáticas **/
+define('WP_AUTO_UPDATE_CORE', 'false');
+/** Admin y login SSL */
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+/** Forzar urls para evitar errores y mejorar carga **/
+define( 'WP_HOME', 'https://midominio.com' );
+define( 'WP_SITEURL', 'https://midominio.com' );
+/** Desactivar edición de archivos **/
+define( 'DISALLOW_FILE_EDIT', true );
